@@ -12,4 +12,4 @@ Compatibility layer between lwjgl2 and lwjgl3
 
 ## Credits
 Legacy-Lwjgl3
-https://github.com/Lassebq/legacy-lwjgl3
+https://github.com/Zarzelcow/legacy-lwjgl3
