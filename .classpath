@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/fa2c760452674d3eaf336123539b0dd9a83041a4/lwjgl-glfw-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/efa1eb78c5ccd840e9f329717109b5e892d72f8e/lwjgl-glfw-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/60a4ce24d71b3376ce53b50cfe3eaaf3277dd727/lwjgl-openal-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/daada81ceb5fc0c291fbfdd4433cb8d9423577f2/lwjgl-openal-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/3353d0b2cac91b84088b01711d33cc403893450b/lwjgl-opengl-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/2f6b0147078396a58979125a4c947664e98293a/lwjgl-opengl-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e5949c7bbf4f839afe6d1a631e9b75f63c559e0/lwjgl-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/fa2c760452674d3eaf336123539b0dd9a83041a4/lwjgl-glfw-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.3/e449e28b4891fc423c54c85fbc5bb0b9efece67a/lwjgl-glfw-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/60a4ce24d71b3376ce53b50cfe3eaaf3277dd727/lwjgl-openal-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.3/cf83862ae95d98496b26915024c7e666d8ab1c8f/lwjgl-openal-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/3353d0b2cac91b84088b01711d33cc403893450b/lwjgl-opengl-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.3/e6c1eec8be8a71951b830a4d69efc01c6531900c/lwjgl-opengl-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/e5949c7bbf4f839afe6d1a631e9b75f63c559e0/lwjgl-3.3.3-sources.jar" kind="lib" path="C:/Users/EldoD/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/a5ed18a2b82fc91b81f40d717cb1f64c9dcb0540/lwjgl-3.3.3-natives-windows.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/EldoD/Documents/Workspace/Lwjgl-Fusion/Lwjgl-Fusion/libs/jinput-2.0.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+</classpath>
