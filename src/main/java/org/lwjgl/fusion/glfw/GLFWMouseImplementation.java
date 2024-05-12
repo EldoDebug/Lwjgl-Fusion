@@ -36,14 +36,8 @@ public class GLFWMouseImplementation implements MouseImplementation {
 
     @Override
     public void createMouse() {
-        // FIXME: NEVER DESTROY MOUSE OR KEYBOARD BECAUSE LINUX SEEMS TO BE UNABLE TO FREE CALLBACK POINTERS PROPERLY
-        if(buttonCallback != null) {
-            return;
-        }
+    	
         this.windowHandle = Display.getHandle();
-
-        if (GLFW.glfwRawMouseMotionSupported() && !Mouse.getPrivilegedBoolean("org.lwjgl.input.Mouse.disableRawInput"))
-            GLFW.glfwSetInputMode(this.windowHandle, GLFW.GLFW_RAW_MOUSE_MOTION, GLFW.GLFW_TRUE);
 
         this.buttonCallback = GLFWMouseButtonCallback.create((window, button, action, mods) -> {
             byte state = action == GLFW.GLFW_PRESS ? (byte)1 : (byte)0;
@@ -105,10 +99,10 @@ public class GLFWMouseImplementation implements MouseImplementation {
 
     @Override
     public void destroyMouse() {
-        // this.buttonCallback.free();
-        // this.posCallback.free();
-        // this.scrollCallback.free();
-        // this.cursorEnterCallback.free();
+        this.buttonCallback.free();
+        this.posCallback.free();
+        this.scrollCallback.free();
+        this.cursorEnterCallback.free();
     }
 
     private void reset() {
