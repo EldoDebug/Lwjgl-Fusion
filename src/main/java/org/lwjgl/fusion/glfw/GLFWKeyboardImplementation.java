@@ -52,16 +52,6 @@ public class GLFWKeyboardImplementation implements KeyboardImplementation {
     }
 
     private void putKeyboardEvent(int keycode, byte state, int ch, long nanos, boolean repeat) {
-    	
-		if (keycode == -1) {
-			ByteBuffer lastEvent = event_queue.getLastEvent();
-
-			if (lastEvent.getInt(0) > 0 && lastEvent.getInt(5) == 0) {
-				lastEvent.putInt(5, ch);
-				return;
-			}
-		}
-		
         this.tmp_event.clear();
         this.tmp_event.putInt(keycode).put(state).putInt(ch).putLong(nanos).put(repeat ? (byte)1 : (byte)0);
         this.tmp_event.flip();
